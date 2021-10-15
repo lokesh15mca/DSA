@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt upgrade
+
+sudo systemctl status mongod
+sudo systemctl start mongod.service
+mongo
+mongodb://127.0.0.1:27017/
+npm install -g nodemon
+
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
