@@ -1,0 +1,64 @@
+.skill{
+    background-color: #52515196;
+    height: 100%;
+}
+.skill_text{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.flax-box{
+    display: grid;
+    margin-left: 8%;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-gap: 8%;
+    
+}
+
+.skill-text{
+    border: 1px solid rgb(95, 122, 172);
+    text-align: center;
+    padding: 20%;
+    border-radius: 10px;
+    
+}
+.skill-text:hover{
+    background-color: rgb(91, 155, 148);
+    transition: 1s all ease;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px){
+    .skill-text{
+        border: 1px solid rgb(95, 122, 172);
+        text-align: center;
+        padding: 10%;
+        border-radius: 10px;
+        
+    }
+    .skill-text:hover{
+        background-color: rgb(91, 155, 148);
+        transition: 1s all ease;
+        opacity: 1;
+    } 
+}
+@media only screen and (max-width: 425px){
+    .skill-text{
+        border: 1px solid rgb(95, 122, 172);
+        text-align: center;
+        /* padding: 5%; */
+        border-radius: 10px;
+        
+    }
+    .skill-text:hover{
+        background-color: rgb(91, 155, 148);
+        transition: 1s all ease;
+        opacity: 1;
+    } 
+    .flax-box{
+        grid-template-columns: 40% 40%;
+    }
+}
